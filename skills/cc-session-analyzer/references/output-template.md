@@ -146,8 +146,9 @@ sequenceDiagram
 
 ### Pie Chart
 ```mermaid
-pie title "Title"
-    "Label" : value
+pie title "Agent vs Developer Time"
+    "Agent" : 420
+    "Developer" : 180
 ```
 - Values must be numbers, not percentages
 
@@ -156,8 +157,8 @@ pie title "Title"
 xychart-beta
     title "Title"
     x-axis ["Short1", "Short2", "Short3"]
-    y-axis "Units" 0 --> max
-    bar [val1, val2, val3]
+    y-axis "Units" 0 --> 300
+    bar [120, 250, 80]
 ```
 - Add a legend below the chart if labels need explanation
 
