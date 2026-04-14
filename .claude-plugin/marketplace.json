@@ -1,0 +1,30 @@
+{
+  "name": "cc-session-analyzer",
+  "owner": {
+    "name": "carterTsai95@gmail.com"
+  },
+  "metadata": {
+    "description": "Analyze any Claude Code session from .jsonl logs with mermaid visualizations",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cc-session-analyzer",
+      "source": "./",
+      "description": "Parse Claude Code session .jsonl logs to generate execution analysis with phase segmentation, timing metrics, and mermaid charts. Works with any session — skill-driven workflows, general coding, debugging, or multi-step tasks.",
+      "version": "1.0.0",
+      "keywords": [
+        "claude-code",
+        "session-analysis",
+        "mermaid",
+        "metrics",
+        "developer-productivity"
+      ],
+      "category": "development",
+      "strict": false,
+      "skills": [
+        "./skills/cc-session-analyzer"
+      ]
+    }
+  ]
+}
